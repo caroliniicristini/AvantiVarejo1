@@ -1,0 +1,63 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "rich-text#deal1"
+    ]
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "FRETE GRÁTIS",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+     
+      "rich-text#deal2"
+    ]
+  },
+ 
+  "rich-text#deal2": {
+    "props": {
+      "text": "1ª TROCA GRÁTIS",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+ 
+      "rich-text#deal3"
+    ]
+  },
+
+  "rich-text#deal3": {
+    "props": {
+      "text": "DESCONTOS PROGRESSIVOS",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "rich-text#deal4"
+    ]
+  },
+
+  "rich-text#deal4": {
+    "props": {
+      "text": "ATÉ 10X SEM JUROS",
+      "blockClass": "deals"
+    }
+  }
+}

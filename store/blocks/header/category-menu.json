@@ -1,0 +1,373 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+     
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-woman",
+      "menu-item#category-man",
+      "menu-item#category-kids",
+      "menu-item#category-acessories",
+      "menu-item#category-sale"
+    ]
+  },
+  "menu-item#category-woman": {
+    "props": {
+      "blockClass": "textMenu",
+      "id": "menu-item-category-woman",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/woman---accessories/",
+        "noFollow": false,
+        "text": "WOMAN"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-woman"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-woman": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-woman"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-woman": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#menu"
+    ]
+  },
+  "flex-layout.row#menu":{
+    "children":[
+      "flex-layout.col#primeiraCol",
+      "flex-layout.col#segundaCol"
+    ]
+  },
+  "flex-layout.col#primeiraCol":{
+    "children":[
+      "menu-item#category-apparel-blusas",
+      "menu-item#category-apparel-vestidos",
+      "menu-item#category-apparel-calcas",
+      "menu-item#category-tshirts"
+    ]
+  },
+  "flex-layout.col#segundaCol":{
+    "children":[
+      "menu-item#category-camisas",
+      "menu-item#category-casacos",
+      "menu-item#category-macacoes",
+      "menu-item#category-bory",
+      "menu-item#category-shorts",
+      "menu-item#category-acessorios"
+    ]
+  },
+  "menu-item#category-apparel-blusas": {
+    "props": {
+      "id": "menu-item-category-apparel-blusas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/blusas/",
+        "noFollow": false,
+        "tagTitle": "blusas",
+        "text": "Blusas"
+      }
+    }
+  },
+  "menu-item#category-apparel-vestidos": {
+    "props": {
+      "id": "menu-item-category-apparel-vestidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---vestidos/vestidos/",
+        "noFollow": false,
+        "tagTitle": "vestidos",
+        "text": "Vestidos"
+      }
+    }
+  },
+  "menu-item#category-apparel-calcas": {
+    "props": {
+      "id": "menu-item-category-apparel-calcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/calcas/",
+        "noFollow": false,
+        "tagTitle": "calcas",
+        "text": "Calças"
+      }
+    }
+  },
+  "menu-item#category-tshirts": {
+    "props": {
+      "id": "menu-item-category-tshirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---tshirts",
+        "noFollow": false,
+        "tagTitle": "tshirts",
+        "text": "T-Shirts"
+      }
+    }
+  },
+   "menu-item#category-regatas": {
+    "props": {
+      "id": "menu-item-category-regatas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---regatas",
+        "noFollow": false,
+        "tagTitle": "regatas",
+        "text": "Regatas"
+      }
+    }
+  },
+     "menu-item#category-camisas": {
+    "props": {
+      "id": "menu-item-category-camisas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---camisas",
+        "noFollow": false,
+        "tagTitle": "camisas",
+        "text": "Camisas"
+      }
+    }
+  },
+  "menu-item#category-casacos": {
+    "props": {
+      "id": "menu-item-category-casacos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---casacos",
+        "noFollow": false,
+        "tagTitle": "casacos",
+        "text": "Casacos"
+      }
+    }
+  },
+  "menu-item#category-macacoes": {
+    "props": {
+      "id": "menu-item-category-macacoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---macacoes",
+        "noFollow": false,
+        "tagTitle": "macacoes",
+        "text": "Macacões"
+      }
+    }
+  },
+  "menu-item#category-bory": {
+    "props": {
+      "id": "menu-item-category-bory",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---bory",
+        "noFollow": false,
+        "tagTitle": "bory",
+        "text": "Bory"
+      }
+    }
+  },
+  
+  "menu-item#category-shorts": {
+    "props": {
+      "id": "menu-item-category-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---shorts",
+        "noFollow": false,
+        "tagTitle": "shorts",
+        "text": "Shorts"
+      }
+    }
+  },
+  
+  "menu-item#category-acessorios": {
+    "props": {
+      "id": "menu-item-category-acessorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---acessorios",
+        "noFollow": false,
+        "tagTitle": "acessorios",
+        "text": "Acessórios"
+      }
+    }
+  },
+  "menu-item#category-man": {
+    "props": {
+      "blockClass": "textMenu",
+      "id": "menu-item-category-man",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/man---decor/",
+        "noFollow": false,
+        "text": "MAN"
+      }
+    }
+  },
+   "menu-item#category-kids": {
+    "props": {
+      "blockClass": "textMenu",
+      "id": "menu-item-category-kids",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kids---decor/",
+        "noFollow": false,
+        "text": "KIDS"
+      }
+    }
+  },
+  "menu-item#category-acessories": {
+    "props": {
+      "blockClass": "textMenu",
+      "id": "menu-item-category-acessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acessories---decor/",
+        "noFollow": false,
+        "text": "ACESSORIES"
+      }
+    }
+  },
+  "menu-item#category-sale": {
+    "props": {
+      "blockClass": "textSale",
+      "id": "menu-item-category-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale---decor/",
+        "noFollow": false,
+        "text": "SALE"
+      }
+    }
+  },
+
+
+
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1",
+      "flex-layout.col#menu-more-2"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "About us"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
+      }
+    }
+  }
+}

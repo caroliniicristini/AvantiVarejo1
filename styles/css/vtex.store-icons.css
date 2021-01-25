@@ -1,0 +1,12 @@
+.expandIcon {
+  color: #727273;
+}
+:global(.vtex-store-icons-0-x-cartIcon){
+
+  width: 18px;
+  margin-top: 10px;
+}
+:global(.vtex-login-2-x-profileIcon){
+  width: 18px;
+    margin-top: 12px;
+}
